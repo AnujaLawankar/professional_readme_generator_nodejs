@@ -28,13 +28,13 @@ First needed to ensure that you're using Node.js v16. If not please install nvm 
  Time Saving, Rapid exceution, Readmade template, Reduce syntaxtical errors.
 
  ## Usage
- Open terminal. Install all packages from npm. Hit the command node index.js
+ Open terminal, Install npm package, Hint command node index.js
 
  ## Contributors
  https://www.twilio.com/blog/how-to-build-a-cli-with-node-js,  https://github.com/SBoudrias/Inquirer.js/
 
 ## Screenshot
-none
+ ![alt text](images/screenshot1.png)  ![alt text](images/screenshot2.png)  ![alt text](images/screenshot3.png)  ![alt text](images/screenshot4.png)
 
 ## Testing
 undefined
