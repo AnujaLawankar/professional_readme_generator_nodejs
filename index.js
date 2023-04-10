@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+//  Include packages needed for this application
 const inquirer = require('inquirer');
 
 const util = require("util");
@@ -8,7 +8,7 @@ const fs = require('fs');
 const generatorMarkdown = require('./utils/generateMarkdown');
 const path = require('path');
 
-// TODO: Create an array of questions for user input
+//  Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: "How is the application used?Give instructions",
+        message: "How is the application used? Give instructions",
         name: "usage"
     },
     {
@@ -76,45 +76,33 @@ const questions = [
     },
     {
         type: 'input',
-        message: "What commands are neede to test this application?",
+        message: "What commands are needed to test this application?",
         name: "test"
     },
     {
         type: 'input',
-        message: "Contact information for inquiries",
+        message: "Do you want to ask any question? Please refer contactme section",
         name: "questions"
     },
 
 ];
 
-// TODO: Create a function to write README file
+//  Create a function to write README file
 
 function writeToFile(fileName, data) {
 
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 
 }
-
-// function writeToFile(fileName, data) {
-
-//   return  fs.writeFile(fileName, JSON.stringify(data, null, '\t'),
-//         (err) => err ? console.log(err) : console.log('success..!')
-//     );
-// }
-
-
-///////////////////////
-
-
-
+// ///////////////////
 // function writeToFile(fileName, data) {
 //     fs.writeFile(fileName, data, function (err) {
 //         console.log(fileName);
 //         console.log(data);
 //         if (err) {
-//             return console.log(err);
+//             return console.log(err)
 //         } else {
-//             console.log("success");
+//             console.log("File successfully created");
 
 //         }
 //     })
@@ -122,14 +110,9 @@ function writeToFile(fileName, data) {
 
 
 
+//////////////////////////
 
-
-
-
-
-///////////////
-
-// TODO: Create a function to initialize app
+//  Create a function to initialize app
 function init() {
 
     inquirer.prompt(questions)
@@ -143,8 +126,8 @@ function init() {
 
 
 
-    // Function call to initialize app
+
 
 }
-
+// Function call to initialize app
 init();
