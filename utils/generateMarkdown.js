@@ -72,7 +72,7 @@ ${data.installation}
  ## Contributors
 ${data.contributors}
 
-## Screenshot
+## Screenshot with Uploaded link of a walkthrough video 
 ${data.screenshot}
 
 ## Testing

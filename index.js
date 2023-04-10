@@ -77,7 +77,7 @@ const questions = [
     {
         type: 'input',
         message: "What commands are needed to test this application?",
-        name: "test"
+        name: "testing"
     },
     {
         type: 'input',
